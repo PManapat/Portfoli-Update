@@ -1,10 +1,11 @@
 body {
     color: rgb(0, 0, 0);
-    background-image: url();
+    background-image: url(https://image.freepik.com/free-vector/colourful-hand-painted-frame-background-white-copy-space_23-2148427587.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: cover;
     background-attachment: fixed;
+    font-family: 'Contrail One', cursive;
 }
 
 .pure-img-responsive {
@@ -50,6 +51,7 @@ The content `<div>` is where all your content goes.
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
+    font-family: 'Contrail One', cursive;
 }
 
 .pure-img-port{
@@ -61,8 +63,7 @@ The content `<div>` is where all your content goes.
 .button-small {
     font-size: 85%;   
     color: white;
-    background-color: rgb(20, 23, 65);
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhufmuHpIjY6STnQAwv4iBZ8pbbYT7Gh0GiW9wz8FUUGq2qfh0&usqp=CAU);
+    background-color: rgb(0, 0, 0);
     background-size: cover;
     border-radius: 5px;
 }
@@ -73,11 +74,13 @@ The content `<div>` is where all your content goes.
      text-align: center;
      padding: 2.5em 2em 0;
      border: 1px solid rgb(0, 0, 0);
-     background-image: url(https://i.pinimg.com/originals/c3/fd/0d/c3fd0d1ce6359afde2ffe0aa2b42d0fa.jpg);
+     background-color: #111;
      background-repeat: no-repeat;
      background-size: cover;
      background-attachment: fixed;
+     font-family: 'Contrail One', cursive;
     }
+
     .header h1 {
         margin: 0.2em 0;
         font-size: 3em;
@@ -95,15 +98,17 @@ The content `<div>` is where all your content goes.
     font-weight: 300;
     color:rgb(0, 0, 0);
     text-align: center;
+    font-family: 'Contrail One', cursive;
 }
 
 .footer {
-    margin-top: 22%;
+    position: relative;
     background: #111;
-    color: rgb(255, 255, 255);
+    color: rgb(179, 179, 179);
     text-align: center;
     padding: 1em;
-    font-size: 80%;
+    font-size: 200%;
+    font-family: 'Libre Barcode 39 Text', cursive;
 }
 
 .footer-content{
@@ -127,6 +132,7 @@ appears on the left side of the page.
     position: relative;
     height: 250px;
     text-align: center;
+    font-family: 'Contrail One', cursive;
 }
 
 .photo-box-thin {
@@ -140,6 +146,7 @@ appears on the left side of the page.
     }
 
     .photo-box aside {
+        font-family: 'Press Start 2P', cursive;
         position: absolute;
         bottom: 0;
         right: 0;
@@ -149,19 +156,18 @@ appears on the left side of the page.
         font-size: 80%;
         text-align: right;
         background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 90%); /* FF3.6+ */
-        background: -webkit-linear-gradient(top,  rgba(255, 255, 255, 0) 0%,rgb(255, 255, 255) 90%); /* Chrome10+,Safari5.1+ */
+        background: -webkit-linear-gradient(top,  rgb(252, 2, 2) 0%,rgb(255, 255, 255) 90%); /* Chrome10+,Safari5.1+ */
         background: -o-linear-gradient(top,  rgba(255, 255, 255, 0) 0%,rgb(255, 247, 247) 90%); /* Opera 11.10+ */
         background: -ms-linear-gradient(top,  rgba(255, 255, 255, 0) 0%,rgb(255, 255, 255) 90%); /* IE10+ */
-        background: linear-gradient(to bottom,  rgba(255, 255, 255, 0) 0%,rgb(255, 255, 255) 90%); /* W3C */
-
+        background: linear-gradient(to bottom,  rgba(255, 255, 255, 0) 0%,rgb(0, 0, 0) 90%); /* W3C */
     }
 
     .photo-box aside span {
-        color: #aaa;
+        color: rgb(255, 255, 255);
     }
 
         .photo-box aside span a {
-            color: rgb(80, 77, 77);
+            color: rgb(255, 255, 255);
             text-decoration: none;
         }
         
@@ -173,7 +179,7 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background-color: rgb(20, 23, 65);
+    background-color: #111;
     background-position: center;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -208,7 +214,7 @@ appears on the left side of the page.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: rgb(223, 188, 73);
+            background: rgb(17, 216, 190);
         }
 
     /*
@@ -216,7 +222,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: rgb(223, 188, 73);
+        background: rgb(189, 23, 189);
     }
         /*
         This styles a link within a selected menu item `<li>`.
@@ -230,7 +236,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-heading {
         font-size: 110%;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         margin: 0;
     }
 
