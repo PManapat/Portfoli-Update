@@ -53,6 +53,11 @@ The content `<div>` is where all your content goes.
     line-height: 1.6em;
     font-family: 'Contrail One', cursive;
 }
+.content-skills {
+    text-align: center;
+    border-bottom: solid .5px;
+    border-color: rgb(0, 0, 0);;
+}
 
 .pure-img-port{
     width: 200px;
