@@ -52,22 +52,10 @@ The content `<div>` is where all your content goes.
     margin-bottom: 50px;
     line-height: 1.6em;
     font-family: 'Contrail One', cursive;
-    animation: 
-    typing 3s steps(50, end);
-    overflow: hidden; 
-    white-space: nowrap; 
-    letter-spacing: .15em;
 }
-
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-
 .content-skills {
     text-align: center;
-    border-bottom: solid .5px;
+    border-bottom: dashed;
     border-color: rgb(0, 0, 0);;
 }
 
@@ -340,9 +328,10 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 
     .footer,
-    .content {
+    .div{
         padding-left: 2em;
         padding-right: 2em;
+        text-align: center;
     }
 }
 
